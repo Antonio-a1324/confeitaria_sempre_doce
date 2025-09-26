@@ -16,9 +16,28 @@ body {
 }
 
 header {
-    background-color: #701fc0;
-    color: #fff;
+    display: flex;
+    background-color: #FFDFF0;
+    color: #cb64ff;
     padding: 20px;
+    border: 5px solid;
+}
+
+.logo {
+    width: 0;
+}
+
+.logo img {
+    width: 200px;
+    margin-left: 30px;
+}
+
+.link-admin {
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    color: brown;
+    padding-right: 20px;
 }
 
 header h1 {
@@ -94,4 +113,10 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+.link-admin:hover {
+    font-weight: bold
+    color: #047DB7;
+
 }
