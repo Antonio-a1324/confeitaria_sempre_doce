@@ -9,7 +9,7 @@ let indiceAtualListaImagens = 0
 
 function exibirImagem() {
     let imagemCarrosel = document
-        .getElementById('img-carrosel')
+        .getElementById('imgCarrossel')
     imagemCarrosel.src = imagens[indiceAtualListaImagens]
 }
 

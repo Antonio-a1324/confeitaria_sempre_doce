@@ -49,10 +49,10 @@ nav ul li a:hover {
     color: #df5e1e;
 }
 
-.img-carrosel {
+.imgCarrossel {
     width: 100%;
     object-fit: cover;
-    height: 10px;
+    height: 250px;
 }
 
 .container h2 {
@@ -60,18 +60,22 @@ nav ul li a:hover {
     font-size: 30px;   
 }
 
+.container p {
+    text-align: center;
+}
+
 .sobre h2 {
     font-family: "Wendy One", sans-serif;
     color: darkmagenta;
 }
 
-.meu-cardapio-itens {
+.menu-cardapio-itens {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
 }
 
-.meu-cardapio-itens {
+.menu-cardapio-item {
     border: 2px solid plum;
     border-radius: 5px;
     width: 30%;
@@ -79,13 +83,13 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgb(254, 155, 215, 0.5);
 }
 
-.meu-cardapio h2 {
+.menu-cardapio h2 {
     text-align: center;
     font-size: 50px;
     font-family: "Wendy One", sans-serif;
 }
 
-.footer {
+footer {
     background-color: rgb(0, 0, 0);
     color: #fff;
     text-align: center;
